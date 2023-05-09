@@ -8,7 +8,7 @@ const mainUrl = `https://api.unsplash.com/photos/`;
 const searchUrl = `https://api.unsplash.com/search/photos/`;
 
 function App() {
-  const [loading, setLoading] = useState(false); //loading
+  const [loading, setLoading] = useState(false); //for loading functionality
   const [photos, setPhotos] = useState([]); //photos
   const [page, setPage] = useState(1); //page
   const [query, setQuery] = useState(""); ///query
