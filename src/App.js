@@ -59,7 +59,7 @@ function App() {
       }
     });
     return () => window.removeEventListener("scroll", event);
-  }, []);
+  }, [loading]);
 
   const handleSubmit = (e) => {
     e.preventDefault();
